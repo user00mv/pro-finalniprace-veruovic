@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Osobní portfolio | WWW & DIM</title>
+    <meta name="description" content="Osobní portfolio – weby, grafika, zkušenosti a úspěchy.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<div class="cursor-outline"></div>
+
+<header class="header">
+    <div class="container nav-container">
+        <div class="logo">Portfolio</div>
+
+        <nav>
+              <ul class="nav-links">
+    <li><a href="index.html">Domů</a></li>
+    <li><a href="html/omne.html">O mně</a></li>
+    <li><a href="html/zkusenosti.html">Zkušenosti</a></li>
+    <li><a href="html/dim.html">DIM</a></li>
+    <li><a href="html/www.html">WWW</a></li>
+    <li><a href="html/uspechy.html">Úspěchy</a></li>
+    <li><a href="html/kontakt.html">Kontakt</a></li>
+</ul>
+        </nav>
+
+        <button class="burger" id="burger">☰</button>
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-text reveal">
+            <h1>MARKO VERUOVIČ</h1>
+            <h2>
+                Jsem <span id="typing"></span>
+            </h2>
+            <p>
+                Marketer, business developer a kreativec. Podnikám od 16 let a dnes vedu agenturu Young Republic Digital. Cílem tohoto webu je ukázat můj tah na branku a propojit se s každým, kdo chce tvořit něco výjimečného.
+            </p>
+            <a href="#contact" class="btn">Chci s tebou mluvit</a>
+        </div>
+
+        <div class="hero-image reveal delay">
+            <div class="img-ripple">
+                <img src="media/marko.png" alt="Marko Veruovič">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <div class="about-box reveal">
+
+            <div class="about-left">
+                <div class="img-ripple">
+                    <img src="media/omne.PNG" alt="Marko Veruovič">
+                </div>
+            </div>
+
+            <div class="about-right">
+                <h2>O mně</h2>
+                
+                <p class="about-text">
+                     Jsem marketér, stratég, business developer a kreativec v duši. Byznysu se věnuji už od 16 let, kdy jsem se spolužáky založil startup Dystopia World – módní značku, která získala ocenění Studentská firma roku a reprezentovala Českou republiku na největším festivalu podnikání v italské Katánii.
+                     <br><br>
+                     V 18 letech jsem založil marketingovou a webovou agenturu Shadowridge. Ke konci téhož roku se agentura fúzovala s větší firmou Young Republic, čímž vznikla NewGen 360 marketingová agentura Young Republic Digital. Mezi naše nejvýznamnější klienty patří například SpartaFest, Zinzuo a další.
+                </p>
+
+                <div class="about-icons">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-bullseye"></i>
+                        <span>360 Marketing</span>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <span>Obchodní Strategie</span>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-palette"></i>
+                        <span>Grafika a vizuály</span>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Web Design</span>
+                    </div>
+                </div>
+
+                <a href="omne.html" class="btn outline">Číst více o mně</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="experience" class="section dark">
+    <div class="container">
+        <h2 class="center">Moje zkušenosti</h2>
+
+        <div class="timeline-container reveal">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-rocket" id="timelineRocket">
+                <img src="media/raketa.png" alt="Raketa">
+            </div>
+
+            <div class="timeline-item" data-step="0">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                    <h3>2024</h3>
+                    <p>Etnetera Flow - 1 měsíc praxe Business Developer</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-step="1">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                    <h3>2024</h3>
+                    <p>Vznik Dystopia World a ocenění studentský startup roku 2024</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-step="2">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                    <h3>2025</h3>
+                    <p>Vznik Shadowridge a růst</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-step="3">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                    <h3>2025</h3>
+                    <p>Fúze. Vznik Young Republic Digital</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-step="4">
+                <span class="timeline-dot"></span>
+                <div class="timeline-content">
+                    <h3>2025</h3>
+                    <p>Expanze, mentoring, větší projekty.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="center experience-btn-wrapper">
+            <a href="zkusenosti.html" class="btn outline">Více o mých zkušenostech</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <h2>Portfolio projektů kreativ</h2>
+
+        <div class="cards">
+            <div class="card image-card reveal">
+                <div class="img-ripple">
+                    <img src="media/s5.png" alt="">
+                </div>
+                <h3>Xinzuo kreativa - Kampaň na vánoce</h3>
+                <p>Sada grafiky pro luxusní značku nožů Xinzuo</p>
+            </div>
+
+            <div class="card image-card reveal delay">
+                <div class="img-ripple">
+                    <img src="media/fanstation.png" alt="">
+                </div>
+                <h3>FanStation kreativa - vizuály pro sociální sítě</h3>
+                <p>Vizuály pro klienta Fanstation</p>
+            </div>
+        </div>
+
+        <a href="dim.html" class="btn outline">Zobrazit všechny DIM projekty</a>
+    </div>
+</section>
+
+<section class="section dark">
+    <div class="container">
+        <h2>Portfolio projektů web designu</h2>
+
+        <div class="cards">
+            <div class="card reveal">
+                <div class="img-ripple">
+                    <img src="media/afaweb.png" alt="">
+                </div>
+                <h3>Web s integrací rezervačního systému </h3>
+                <p>Web s integrací rezervačního systému pro All For Athletes - skupina trenérů nové generace</p>
+            </div>
+
+            <div class="card reveal delay">
+                <div class="img-ripple">
+                    <img src="media/mr.png" alt="">
+                </div>
+                <h3>Web a rezervační systém a chatbot</h3>
+                <p>Web + Rezervační systém + AI chatbot pro Barbershop a boutique salon z Brna.</p>
+            </div>
+        </div>
+
+        <a href="www.html" class="btn outline">Zobrazit všechny WWW projekty</a>
+    </div>
+</section>
+
+<section id="achievements" class="section">
+    <div class="container">
+        <h2>Úspěchy</h2>
+
+        <div class="cards">
+            <div class="card reveal">
+                <div class="img-ripple">
+                    <img src="media/1.png" alt="">
+                </div>
+                <h3>Studentská firma roku 2024</h3>
+                <p>V roce 2024 jsem se svými spolužáky založil Dystopia World, modní značku, co později vyhrála ocenění studentská firma roku a reprezentovali jsme Českou republiku na GEN E</p>
+            </div>
+
+            <div class="card reveal delay">
+                <div class="img-ripple">
+                    <img src="media/2.png" alt="">
+                </div>
+                <h3>3. firma v 18 letech</h3>
+                <p>Podnikavost je moje hobby a to se ukazuje i na výsledcích. V 18 letech se moje agentura spojila dohroamdy s vetší firmou Young Republic a vznikla moje 3. firma Young Republic Digital</p>
+            </div>
+        </div>
+
+        <a href="uspechy.html" class="btn outline">Všechny úspěchy</a>
+    </div>
+</section>
+
+<section id="reviews" class="section">
+    <div class="container">
+        <h2 class="center">Recenze & doporučení</h2>
+
+        <div class="reviews-grid">
+            <div class="review-card reveal">
+                <div class="img-ripple review-avatar">
+                    <img src="https://i.pravatar.cc/150?img=11" alt="">
+                </div>
+                <p>
+                    „Spolupráce s Markem byla naprosto skvělá.  
+                    Dodal moderní web a perfektní strategii.“
+                </p>
+                <h4>Jan Novák</h4>
+                <span>CEO, Startup XYZ</span>
+            </div>
+
+            <div class="review-card reveal delay">
+                <div class="img-ripple review-avatar">
+                    <img src="https://i.pravatar.cc/150?img=32" alt="">
+                </div>
+                <p>
+                    „Skvělý cit pro design i marketing.  
+                    Výsledky přišly rychle.“
+                </p>
+                <h4>Petra Malá</h4>
+                <span>Marketing Manager</span>
+            </div>
+
+            <div class="review-card reveal delay2">
+                <div class="img-ripple review-avatar">
+                    <img src="https://i.pravatar.cc/150?img=45" alt="">
+                </div>
+                <p>
+                    „Profesionální přístup a originální nápady.  
+                    Určitě doporučuji.“
+                </p>
+                <h4>Tomáš Dvořák</h4>
+                <span>Podnikatel</span>
+            </div>
+
+            <div class="review-card reveal delay3">
+                <div class="img-ripple review-avatar">
+                    <img src="https://i.pravatar.cc/150?img=18" alt="">
+                </div>
+                <p>
+                    „Pomohl nám s brandingem i strategií.  
+                    Výrazný posun.“
+                </p>
+                <h4>Lucie Králová</h4>
+                <span>Brand Manager</span>
+            </div>
+
+            <div class="review-card reveal delay3">
+                <div class="img-ripple review-avatar">
+                    <img src="https://i.pravatar.cc/150?img=27" alt="">
+                </div>
+                <p>
+                    „Marek má tah na branku a rozumí byznysu.“
+                </p>
+                <h4>David Černý</h4>
+                <span>Founder</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="section dark">
+    <div class="container contact-form-box reveal">
+        <h2 class="center">Kontakt</h2>
+        <form action="#" class="contact-form">
+            <div class="form-group">
+                <label for="name">Jméno</label>
+                <input type="text" id="name" placeholder="Vaše jméno" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Váš email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Zpráva</label>
+                <textarea id="message" placeholder="Vaše zpráva..." required></textarea>
+            </div>
+            <div class="form-group checkbox">
+                <input type="checkbox" id="gdpr" required>
+                <label for="gdpr">Souhlasím se zpracováním osobních údajů</label>
+            </div>
+            <button type="submit" class="btn">Odeslat</button>
+        </form>
+    </div>
+</section>
+
+</main>
+<footer class="footer reveal">
+    <div class="container footer-grid">
+
+        <div class="footer-column">
+            <h3>O mně</h3>
+            <p>
+                Jsem Marko Veruovič – podnikatel, marketér a designer.
+                Pomáhám značkám růst skrze weby, marketing a strategii.
+            </p>
+            <p>
+                Sdílím reálné zkušenosti z B2B i B2C projektů.
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Kontakt</h3>
+
+            <div class="footer-box">
+                <i class="fa-solid fa-envelope"></i>
+                <span>markoolsver@gmail.com</span>
+            </div>
+
+            <div class="footer-box">
+                <i class="fa-solid fa-phone"></i>
+                <span>+420 123 456 789</span>
+            </div>
+
+            <div class="footer-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Praha, Česká republika</span>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Sociální sítě</h3>
+
+            <div class="footer-box">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </div>
+
+            <div class="footer-box">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </div>
+
+            <div class="footer-box">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+            </div>
+
+            <div class="footer-box">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Marketing tipy od Marka</h3>
+            <p>
+                Chceš dostávat praktické tipy z marketingu, podnikání
+                a reálné zkušenosti z projektů?
+            </p>
+
+            <form class="newsletter-form">
+                <input type="email" placeholder="Tvůj email" required>
+                <button type="submit">Chci tipy</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 – Marko Veruovič | Osobní portfolio</p>
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F TVOJE_JMENO %2F REPOZITAR&count_bg=%23B5DB15&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Návštěvy&edge_flat=false" alt="Počítadlo"/>
+
+    </div>
+    <div style="margin-top: 15px; opacity: 0.8;">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fuser00mv.github.io%2Fpro-finalniprace-veruovic&count_bg=%23B5DB15&title_bg=%23333333&icon=&icon_color=%23E7E7E7&title=N%C3%A1v%C5%A1t%C4%9Bvy&edge_flat=true" alt="Počítadlo návštěv">
+</div>
+</footer>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
